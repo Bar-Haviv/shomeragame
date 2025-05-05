@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #444;
+  background-image: url('images/background_stars.png');
+  background-size: cover;
+}
+
+#restartBtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#restartBtn:hover {
+  background-color: #666;
+}
